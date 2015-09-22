@@ -1,2 +1,2 @@
 # PortFolio-FrontEnd
-This is a repo which consists of PortFolio
+This is a repo which consists of PortFolio Front-end
