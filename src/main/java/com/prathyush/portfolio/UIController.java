@@ -18,7 +18,7 @@ public class UIController {
 
 
     public static void main(String args[]){
-        Spark.port(9999);
+        Spark.port(8090);
         Spark.staticFileLocation("www");
 
         Spark.before("/*", (request, response) -> {
