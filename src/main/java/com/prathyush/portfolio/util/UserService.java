@@ -22,18 +22,7 @@ public class UserService {
 
     public static List<User> getUserList(){
         List<User> list = new ArrayList<>();
-        list.add(new User(1,"amith","amith"));
-        list.add(new User(2,"phani","phani"));
-        list.add(new User(3,"nandu","nandu"));
-        list.add(new User(4,"shams","shams"));
-        list.add(new User(5,"dey","dey"));
-        list.add(new User(6,"hima","hima"));
-        list.add(new User(7,"vasuki","vasuki"));
-        list.add(new User(8,"pratyush","pratyush"));
-        list.add(new User(8,"admin","admin"));
-        list.add(new User(8,"admin1","admin1"));
-        list.add(new User(8,"avinash","avinash"));
-
+        list.add(new User(1,"prathyush-rzt","augusta"));
         return list;
     }
 }
