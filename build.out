@@ -1,0 +1,19 @@
+[Thread-0] INFO org.eclipse.jetty.util.log - Logging initialized @123ms
+[Thread-0] INFO spark.webserver.JettySparkServer - == Spark has ignited ...
+[Thread-0] INFO spark.webserver.JettySparkServer - >> Listening on 0.0.0.0:8090
+[Thread-0] INFO org.eclipse.jetty.server.Server - jetty-9.3.z-SNAPSHOT
+[Thread-0] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@1715b5c6{HTTP/1.1,[http/1.1]}{0.0.0.0:8090}
+[Thread-0] INFO org.eclipse.jetty.server.Server - Started @200ms
+/index.html - Not / - Redirecting to /index.html
+UserID: null
+Session ID: rbt7amks2qap4nq35mm1ivg1
+..
+/index.html - Not / - Redirecting to /index.html
+UserID: 1
+Session ID: rbt7amks2qap4nq35mm1ivg1
+/img/profile.png - Not / - Redirecting to /img/profile.png
+UserID: 1
+Session ID: rbt7amks2qap4nq35mm1ivg1
+/get-timeline - Not / - Redirecting to /get-timeline
+UserID: 1
+Session ID: rbt7amks2qap4nq35mm1ivg1
