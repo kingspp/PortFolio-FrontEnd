@@ -46,7 +46,7 @@ public class TimeLine {
 
         //FEB
         timeLine.add(getTimeLinePojo("February 6", "Proud Moment - Mysore Recruitment Drive", "6 Months - All it took to move from interviewee to interviewer. My college, my lecturers were proud when they saw their student visit the college for recruitment drive. What a change in just 6 months. I am thankful to RZT "));
-        timeLine.add(getTimeLinePojo("February 28", "Here I am", "Thank you RZT for an exciting Journey. I can feel the future to be even more compelling and zestful :)"));
+        timeLine.add(getTimeLinePojo("February 28", "Here I am", " RZT has give me <u><i style='font-style: italic;'>mentors</i></u> like <b style='font-weight: bolder;'>Shams</b>, <u><i style='font-style: italic;'>seniors</i></u> like <b style='font-weight: bolder;'>Amith, Subbu, Abhishek, Shubhadeep, Sajesh, Keerthi</b> and <b style='font-weight: bolder;'>Shreesha</b>, <u><i style='font-style: italic;'>friends</i></u> like <b style='font-weight: bolder;'>Shreesha, Sumith, Swamy, Himaprasoon</b>,  with <u><i style='font-style: italic;'>visionaries</i></u> such as <b style='font-weight: bolder;'>Nandu, Vinay</b> and <b style='font-weight: bolder;'> Jack</b>. Truly I am blessed!!. <br/><br/>Thank you RZT for an exciting Journey. I can feel the future to be even more compelling and zestful :)"));
 
 
         return timeLine;
