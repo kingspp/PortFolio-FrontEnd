@@ -1,42 +1,81 @@
-[Thread-0] INFO org.eclipse.jetty.util.log - Logging initialized @255ms
+[Thread-0] INFO org.eclipse.jetty.util.log - Logging initialized @217ms
 [Thread-0] INFO spark.webserver.JettySparkServer - == Spark has ignited ...
 [Thread-0] INFO spark.webserver.JettySparkServer - >> Listening on 0.0.0.0:8090
 [Thread-0] INFO org.eclipse.jetty.server.Server - jetty-9.3.z-SNAPSHOT
-[Thread-0] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@4e30ec3f{HTTP/1.1,[http/1.1]}{0.0.0.0:8090}
-[Thread-0] INFO org.eclipse.jetty.server.Server - Started @460ms
-/favicon.ico - Not / - Redirecting to /favicon.ico
+[Thread-0] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@7f4e3e79{HTTP/1.1,[http/1.1]}{0.0.0.0:8090}
+[Thread-0] INFO org.eclipse.jetty.server.Server - Started @393ms
+/index.html - Not / - Redirecting to /index.html
 UserID: null
-Session ID: 1twaiffrzxntrt4g89hh7qds2
+Session ID: 1ga2cz6ytm2tzo7tue6yxhbu
 ..
 /index.html - Not / - Redirecting to /index.html
 UserID: 1
-Session ID: 1twaiffrzxntrt4g89hh7qds2
+Session ID: 1ga2cz6ytm2tzo7tue6yxhbu
 /img/profile.png - Not / - Redirecting to /img/profile.png
 UserID: 1
-Session ID: 1twaiffrzxntrt4g89hh7qds2
+Session ID: 1ga2cz6ytm2tzo7tue6yxhbu
 /get-timeline - Not / - Redirecting to /get-timeline
 UserID: 1
-Session ID: 1twaiffrzxntrt4g89hh7qds2
+Session ID: 1ga2cz6ytm2tzo7tue6yxhbu
+/index.html - Not / - Redirecting to /index.html
+UserID: 1
+Session ID: 1ga2cz6ytm2tzo7tue6yxhbu
+/img/profile.png - Not / - Redirecting to /img/profile.png
+UserID: 1
+Session ID: 1ga2cz6ytm2tzo7tue6yxhbu
+/get-timeline - Not / - Redirecting to /get-timeline
+UserID: 1
+Session ID: 1ga2cz6ytm2tzo7tue6yxhbu
 /favicon.ico - Not / - Redirecting to /favicon.ico
 UserID: 1
-Session ID: 1twaiffrzxntrt4g89hh7qds2
+Session ID: 1ga2cz6ytm2tzo7tue6yxhbu
+/index.html - Not / - Redirecting to /index.html
+UserID: 1
+Session ID: 1ga2cz6ytm2tzo7tue6yxhbu
+/img/profile.png - Not / - Redirecting to /img/profile.png
+UserID: 1
+Session ID: 1ga2cz6ytm2tzo7tue6yxhbu
+/get-timeline - Not / - Redirecting to /get-timeline
+UserID: 1
+Session ID: 1ga2cz6ytm2tzo7tue6yxhbu
+/favicon.ico - Not / - Redirecting to /favicon.ico
+UserID: 1
+Session ID: 1ga2cz6ytm2tzo7tue6yxhbu
+/index.html - Not / - Redirecting to /index.html
+UserID: 1
+Session ID: 1ga2cz6ytm2tzo7tue6yxhbu
+/img/profile.png - Not / - Redirecting to /img/profile.png
+UserID: 1
+Session ID: 1ga2cz6ytm2tzo7tue6yxhbu
+/get-timeline - Not / - Redirecting to /get-timeline
+UserID: 1
+Session ID: 1ga2cz6ytm2tzo7tue6yxhbu
+/index.html - Not / - Redirecting to /index.html
+UserID: 1
+Session ID: 1ga2cz6ytm2tzo7tue6yxhbu
+/img/profile.png - Not / - Redirecting to /img/profile.png
+UserID: 1
+Session ID: 1ga2cz6ytm2tzo7tue6yxhbu
+/get-timeline - Not / - Redirecting to /get-timeline
+UserID: 1
+Session ID: 1ga2cz6ytm2tzo7tue6yxhbu
 ..
 /index.html - Not / - Redirecting to /index.html
 UserID: 1
-Session ID: 1twaiffrzxntrt4g89hh7qds2
+Session ID: 1ga2cz6ytm2tzo7tue6yxhbu
 /img/profile.png - Not / - Redirecting to /img/profile.png
 UserID: 1
-Session ID: 1twaiffrzxntrt4g89hh7qds2
+Session ID: 1ga2cz6ytm2tzo7tue6yxhbu
 /get-timeline - Not / - Redirecting to /get-timeline
 UserID: 1
-Session ID: 1twaiffrzxntrt4g89hh7qds2
+Session ID: 1ga2cz6ytm2tzo7tue6yxhbu
 ..
 /index.html - Not / - Redirecting to /index.html
 UserID: 1
-Session ID: 1twaiffrzxntrt4g89hh7qds2
+Session ID: 1ga2cz6ytm2tzo7tue6yxhbu
 /img/profile.png - Not / - Redirecting to /img/profile.png
 UserID: 1
-Session ID: 1twaiffrzxntrt4g89hh7qds2
+Session ID: 1ga2cz6ytm2tzo7tue6yxhbu
 /get-timeline - Not / - Redirecting to /get-timeline
 UserID: 1
-Session ID: 1twaiffrzxntrt4g89hh7qds2
+Session ID: 1ga2cz6ytm2tzo7tue6yxhbu

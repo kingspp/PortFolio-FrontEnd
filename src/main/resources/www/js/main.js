@@ -13,7 +13,7 @@ jQuery(document).ready(function($){
             $("header").animate({
                  height:300},{
                 complete: function() {
-                    $("#headerImage").show()
+                    $("#rectangle").show()
                 }});
             timelineBlocks = $('.cd-timeline-block'),
                 offset = 0.8;
@@ -22,7 +22,7 @@ jQuery(document).ready(function($){
         }
         else if (atTop) {
             //$("header").empty();
-            $("#headerImage").hide();
+            $("#rectangle").hide();
             $("header").animate({height:100});
             if(!$('#heading').length )         // use this if you are using id to check
             {
