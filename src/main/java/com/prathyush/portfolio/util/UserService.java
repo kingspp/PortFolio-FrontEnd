@@ -22,7 +22,7 @@ public class UserService {
 
     public static List<User> getUserList(){
         List<User> list = new ArrayList<>();
-        list.add(new User(1,"prathyush-rzt","augusta"));
+        list.add(new User(1,"prathyush-rzt","admin@123"));
         return list;
     }
 }
