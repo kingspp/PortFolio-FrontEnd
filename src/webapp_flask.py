@@ -32,6 +32,7 @@ app.config.from_pyfile('static/config.cfg')
 
 
 
+
 auth = HTTPBasicAuth()
 app.secret_key = 'some_secret'
 
