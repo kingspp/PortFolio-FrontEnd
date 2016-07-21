@@ -1,5 +1,6 @@
 from src import Timeline
-from src.webapp_flask import _entries as entries
+
+entries = []
 if __name__ == '__main__':
     entries.append(Timeline("20150722", "Neophyte",
                             "It all started on 22nd of July, when I was assigned a problem which was to group sentences into clusters based on their tense"))

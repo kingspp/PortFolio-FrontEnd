@@ -1,4 +1,4 @@
-from src.webapp_flask import app, _data
+from src.webapp_flask import app
 from flask_sqlalchemy import SQLAlchemy
 from src.entries import entries
 import datetime
@@ -26,6 +26,7 @@ for entry in entries:
 db.session.commit()
 
 data = Timeline.query.all()
+_data=[]
 
 for tl in data:
     _data.append({'id':tl.id, 'header':tl.header, 'body':tl.body, 'date':tl.date.strftime('%m/%d/%Y').__str__()})

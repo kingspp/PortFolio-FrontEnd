@@ -10,14 +10,14 @@ import jsonpickle as json
 import datetime
 #t = datetime.datetime(2012, 2, 23, 0, 0)
 #t.strftime('%m/%d/%Y')
+import sys
+sys.path.append('/'.join(os.getcwd().split("/")[0:-1]))
+
 
 
 # Logging Configuration
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
-
-# Global Variables:
-_entries, _data = [],[]
 
 # Flask Configuration
 app = Flask(__name__, static_folder=str(os.getcwd()+'/static'))
