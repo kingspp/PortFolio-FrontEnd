@@ -6,16 +6,10 @@ from flask import Flask
 import argparse
 import os
 import configparser
-
-
-
-
-
-
-
-# config = configparser.RawConfigParser()
-# config.read('src/static/app.config.properties')
-
+import jsonpickle as json
+import datetime
+#t = datetime.datetime(2012, 2, 23, 0, 0)
+#t.strftime('%m/%d/%Y')
 
 
 # Logging Configuration
@@ -29,20 +23,12 @@ _entries, _data = [],[]
 app = Flask(__name__, static_folder=str(os.getcwd()+'/static'))
 app.config.from_pyfile('static/config.cfg')
 
-
-
-
-
 auth = HTTPBasicAuth()
 app.secret_key = 'some_secret'
 
 users = {
     "admin": "admin@123"
 }
-
-
-
-
 
 # Flask Routing
 @auth.get_password
@@ -58,6 +44,12 @@ def login():
     user = auth.username()
     flash('Welcome %s', user)
     return render_template('index.html')
+
+
+@app.route("/get-timeline", methods=['GET'])
+def get_timeline():
+    return str(json.dumps(_data))
+
 
 # Main Function - Start Here
 if __name__ == '__main__':

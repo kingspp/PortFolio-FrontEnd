@@ -1,5 +1,9 @@
 jQuery(document).ready(function($){
 
+    var monthNames = ["January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December"
+];
+
     var atTop = !$(document).scrollTop();
     var timelineBlocks;
 
@@ -26,7 +30,7 @@ jQuery(document).ready(function($){
             $("header").animate({height:100});
             if(!$('#heading').length )         // use this if you are using id to check
             {
-                $("header").append("<h1 id='heading'>Prathyush SP - The Journey</h1>");
+                $("header").append("<h1 id='heading' style='margin-top:-100px'>Prathyush SP - The Journey</h1>");
             }
             atTop = false;
         }
@@ -57,13 +61,13 @@ jQuery(document).ready(function($){
             $("#cd-timeline").empty();
 			data = JSON.parse((data));
             $.each(data, function (k,v) {
-
+                var date =moment(v.date);
                 html+='<div class="cd-timeline-block">' +
                             '<div class="cd-timeline-img cd-movie"></div>' +
                             '<div class="cd-timeline-content">' +
-                                ' <h2>'+ v.title+'</h2>'+
-                                '<p>'+ v.description+'</p>'+
-                                '<span class="cd-date">'+v.date+'</span>'+
+                                ' <h2>'+ v.header+'</h2>'+
+                                '<p>'+ v.body+'</p>'+
+                                '<span class="cd-date">'+date.format('D MMM, YYYY')+'</span>'+
                             '</div>'+
                       '</div>';
 
